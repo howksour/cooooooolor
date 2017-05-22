@@ -1,506 +1,630 @@
-head{
-    display: block; 
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
+
+head {
+    display: block;
+}
+
+body {
     width: 100%;
     display: block;
-    transition: 2.0s;
-    text-align: ; 
-    margin: 0px;
-    padding: 0px;
+    transition: 1.0s;
     font-family: 'Questrial', sans-serif;
 }
-header{
+
+header {
     padding-top: 20px;
     padding-bottom: 10px;
     width: 100%;
-    background-color: rgba(255,255,255,0.5);
-    font-size: 15px;
-    margin-left:px;
-    margin-top: px;
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 2;
     position: fixed;
     top: 0;
-	left: 0;
-	transition: .3s;
+    left: 0;
+    transition: 0.3s;
 }
-.box{
-   margin-left: 66px; 
+img{
+    margin-left: 55px;
 }
-.main{
+
+.main {
     display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
     margin-top: 90px;
     margin-bottom: 15px;
     text-align: center;
 }
 
-.first{
-    position: static;
-    color: #fff;
-    font-size: 183px;
-    margin: 20px;
-    padding: 0px;
+
+.color_box {
     display: inline-block;
-    vertical-align:top;
 }
-.last{ 
-   
-}
-.color_box{
-    margin: 15px;
-    display: inline-block;
-   
-}
-.circle{
+
+.circle {
+    position: relative;
     color: #fff;
-    padding: 0;
-    margin: 0;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    font-size: 12px;
-    display: table-cell;
-    vertical-align: middle;
+    font-size: 11px;
     text-align: center;
-    margin-bottom: 10px;
-    -moz-transition: -moz-transform 0.5s linear;
-    -webkit-transition: -webkit-transform 0.5s linear;
-    -o-transition: -o-transform 0.5s linear;
-    -ms-transition: -ms-transform 0.5s linear;
-    transition: transform 0.5s linear;
-}
-.circle:hover{
-    transform: scale(1.5,1.5);
-    transition: 1s;
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
+    margin: 15px;
     
 }
-#circle{
+p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 12px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    -webkit-transition: 1s;
+  　-moz-transition: 1s;
+  　-o-transition: 1s;
+  　-ms-transition: 1s;
+  　transition: 1s;
+    
+    
+}
+
+p:hover {
+    transform: scale(1.5, 1.5);
+    transition: 1s;
+    font-size: 19px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+    
+    
+}
+
+#circle {
     margin-top: s0px;
     padding-top: 50px;
 }
-.vesta{
+/* Extra small devices (phones, less than 320px) */
+@media (min-width: @screen-sm-min) { 
+
+ }
+
+
+.vesta {
     background-color: #ff8387;
 }
-.etrascan{
+
+.etrascan {
     background-color: #b0755c;
 }
-.eros{
+
+.eros {
     background-color: #ff8ec2;
 }
-.etrascan{
+
+.etrascan {
     background-color: #b0755c;
 }
-.empire{
+
+.empire {
     background-color: #f08687;
 }
-.orchid{
+
+.orchid {
     background-color: #d67a85;
 }
-.opera{
+
+.opera {
     background-color: #ec9cba;
 }
-.carinho{
+
+.carinho {
     background-color: #f34c66;
 }
-.cupid{
+
+.cupid {
     background-color: #ff9b9f;
 }
-.cloudy{
+
+.cloudy {
     background-color: #aa96a0;
 }
-.coral{
+
+.coral {
     background-color: #ffa79b;
 }
-.spring{
+
+.spring {
     background-color: #fc7886;
 }
-.dawn{
+
+.dawn {
     background-color: #ffa4a1;
 }
-.du{
+
+.du {
     background-color: #ff7a6b;
 }
-.trianon{
+
+.trianon {
     background-color: #ee897f;
 }
-.medows{
+
+.medows {
     background-color: #ffaba9;
 }
-.agatt{
+
+.agatt {
     background-color: #8f0023;
 }
-.aristoteles{
+
+.aristoteles {
     background-color: #bb4a6c;
 }
-.volkan{
+
+.volkan {
     background-color: #a7001f;
 }
-.ember{
+
+.ember {
     background-color: #ab1e36;
 }
-.autumn{
+
+.autumn {
     background-color: #b1072f;
 }
-.cardinal{
+
+.cardinal {
     background-color: #981e34;
 }
-.carnival{
+
+.carnival {
     background-color: #c8002b;
 }
-.carmine{
+
+.carmine {
     background-color: #e10041;
 }
-.carmen{
+
+.carmen {
     background-color: #e91e5a;
 }
-.crimson{
+
+.crimson {
     background-color: #8b0036;
 }
-.devil{
+
+.devil {
     background-color: #c80036;
 }
-.torea{
+
+.torea {
     background-color: #d00038;
 }
-.fire{
+
+.fire {
     background-color: #d70023;
 }
-.phoenix{
+
+.phoenix {
     background-color: #e4002b;
 }
-.rosario{
+
+.rosario {
     background-color: #db308c;
 }
-.aladdin{
+
+.aladdin {
     background-color: #dd5942;
 }
-.eos{
+
+.eos {
     background-color: #f05c4e;
 }
-.sunset{
+
+.sunset {
     background-color: #f64f37;
 }
-.georie{
+
+.georie {
     background-color: #ff732d;
 }
-.socrates{
+
+.socrates {
     background-color: #d04c39;
 }
-.soleil{
+
+.soleil {
     background-color: #ff7321;
 }
-.flame{
+
+.flame {
     background-color: #e94e47;
 }
-.majolica{
+
+.majolica {
     background-color: #f7723f;
 }
-.akbar{
+
+.akbar {
     background-color: #77120f;
 }
-.othello{
+
+.othello {
     background-color: #5e4b42;
 }
-.gambian{
+
+.gambian {
     background-color: #7b4411;
 }
-.sphynx{
+
+.sphynx {
     background-color: #765244;
 }
-.dyres{
+
+.dyres {
     background-color: #c5be82;
 }
-.terra{
+
+.terra {
     background-color: #57221b;
 }
-.trafalgar{
+
+.trafalgar {
     background-color: #997264;
 }
-.balzac{
+
+.balzac {
     background-color: #836449;
 }
-.bedouin{
+
+.bedouin {
     background-color: #764f47;
 }
-.maroon{
+
+.maroon {
     background-color: #56001d;
 }
-.mist{
+
+.mist {
     background-color: #af9090;
 }
-.moon{
+
+.moon {
     background-color: #fcd8b1;
 }
-.riva{
+
+.riva {
     background-color: #62362f;
 }
-.leghorn{
+
+.leghorn {
     background-color: #e7c59c;
 }
-.egg{
+
+.egg {
     background-color: #fff3c9;
 }
-.gold{
+
+.gold {
     background-color: #ffb20f;
 }
-.lime{
+
+.lime {
     background-color: #ffecc0;
 }
-.lemon{
+
+.lemon {
     background-color: #faff40;
 }
-.verdigri{
+
+.verdigri {
     background-color: #5ba080;
 }
-.weld{
+
+.weld {
     background-color: #c1bc55;
 }
-.queen{
+
+.queen {
     background-color: #7d985e;
 }
-.grass{
+
+.grass {
     background-color: #8d9553;
 }
-.grem{
-    background-color: #7ba221;
+
+.south{
+    background-color: #003c2f;
 }
-.graucas{
+
+.graucas {
     background-color: #b6bea2;
 }
-.crocodile{
+
+.crocodile {
     background-color: #004f57;
 }
-.cendrillon{
+
+.cendrillon {
     background-color: #3a5551;
 }
-.storm{
+
+.storm {
     background-color: #c5e3db;
 }
-.song{
+
+.song {
     background-color: #3eb4aa;
 }
-.fjord{
+
+.fjord {
     background-color: #009c97;
 }
-.fairy{
+
+.fairy {
     background-color: #a1d4c9;
 }
-.academy{
+
+.academy {
     background-color: #428abd;
 }
-.spray{
+
+.spray {
     background-color: #52b3af;
 }
-.tint{
+
+.tint {
     background-color: #c5e7eb;
 }
-.mrin{
+
+.mrin {
     background-color: #327585;
 }
-.aquaris{
+
+.aquaris {
     background-color: #80aeb7;
 }
-.adonis{
+
+.adonis {
     background-color: #00678e;
 }
-.aphrodita{
+
+.aphrodita {
     background-color: #90cfcb;
 }
-.amigo{
+
+.amigo {
     background-color: #3b91c4;
 }
-.arabesque{
+
+.arabesque {
     background-color: #00869f;
 }
-.arukadia{
+
+.arukadia {
     background-color: #71c5c6;
 }
-.independence{
+
+.independence {
     background-color: #001a50;
 }
-.winter{
+
+.winter {
     background-color: #5c728a;
 }
-.westminster{
+
+.westminster {
     background-color: #121144;
 }
-.wedgewood{
+
+.wedgewood {
     background-color: #5a8cb3;
 }
-.venit{
+
+.venit {
     background-color: #389192;
 }
-.verona{
+
+.verona {
     background-color: #53adb2;
 }
-.voltaire{
+
+.voltaire {
     background-color: #c6d3e2;
 }
-.ultra{
+
+.ultra {
     background-color: #2d3289;
 }
-.april{
+
+.april {
     background-color: #88b6c9;
 }
-.ophelia{
+
+.ophelia {
     background-color: #7ac7be;
 }
-.orion{
+
+.orion {
     background-color: #50c2dc;
 }
-.cloud{
+
+.cloud {
     background-color: #5a728f;
 }
-.clear{
+
+.clear {
     background-color: #1886a2;
 }
-.goethe{
+
+.goethe {
     background-color: #003b73;
 }
-.leaf{
+
+.leaf {
     background-color: #00748a;
 }
-.cosmic{
+
+.cosmic {
     background-color: #0070a3;
 }
-.southern{
+
+.southern {
     background-color: #7fb0d2;
 }
-.twilight{
+
+.twilight {
     background-color: #889cba;
 }
-.north{
+
+.north {
     background-color: #393b3e;
 }
-.nocturne{
+
+.nocturne {
     background-color: #191c32;
 }
-.parotte{
+
+.parotte {
     background-color: #0098b6;
 }
-.versaille{
+
+.versaille {
     background-color: #7da8ab;
 }
-.myosotis{
+
+.myosotis {
     background-color: #5cc9ed;
 }
-.antique{
+
+.antique {
     background-color: #945a77;
 }
-.vainas{
+
+.vainas {
     background-color: #d1a5ac;
 }
-.westaria{
+
+.westaria {
     background-color: #7b639c;
 }
-.old{
+
+.old {
     background-color: #635375;
 }
-.oxblood{
-    background-color: #56001f;
+
+.oxblood {
+    background-color: #590322;
 }
-.king{
+
+.king {
     background-color: #700e97;
 }
-.gothic{
+
+.gothic {
     background-color: #59003a;
 }
-.shakspeare{
+
+.shakspeare {
     background-color: #28204b;
 }
-.charles{
+
+.charles {
     background-color: #590027;
 }
-.chourouge{
+
+.chourouge {
     background-color: #570030;
 }
-.suger{
+
+.suger {
     background-color: #820041;
 }
-.neptune{
-    background-color: #700e97;
+
+.neptune {
+    background-color: #287d7d;
 }
-.pharao{
+
+.pharao {
     background-color: #344d84;
 }
-.acropolis{
+
+.acropolis {
     background-color: #f4dec4;
 }
-.alabaster{
+
+.alabaster {
     background-color: #fcdfd4;
 }
-.edelweiss{
+
+.edelweiss {
     background-color: #fff3e1;
 }
-.elfenbein{
+
+.elfenbein {
     background-color: #ffe9d6;
 }
-.gun{
+
+.gun {
     background-color: #2e1e29;
 }
-.stalactite{
+
+.stalactite {
     background-color: #ffe5d0;
 }
-.zeus{
+
+.zeus {
     background-color: #001d2a;
 }
-.battleship{
+
+.battleship {
     background-color: #545257;
 }
-.stone{
+
+.stone {
     background-color: #a0a3a0;
 }
-.unicorn{
+
+.unicorn {
     background-color: #f5f4f9;
 }
-.last{
+.garden{
+    background-color: #deefea;
+}
+.goose{
+    background-color: #323934;
+}
+.citron{
+    background-color: #f1f2d9;
+}
+.last {
     position: static;
     color: #fff;
     font-size: 183px;
     margin: 20px;
     padding: 0px;
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
 }
-small{
+
+small {
     text-align: center;
-    font-size:0.85em;
-    color: rgba(255,255,255,0.5);
-    background-color: rgba(0,0,0,0.5);
+    font-size: 0.85em;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
     width: 100%;
-    clear:both;
-    height:0px;
-    padding-top:10px; 
-    display:block;
+    clear: both;
+    height: 0px;
+    padding-top: 10px;
+    display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
